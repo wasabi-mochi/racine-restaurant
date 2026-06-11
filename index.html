@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RACINE — ラシーヌ | Fine Dining Tokyo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <span class="header-tagline">Fine Dining · Tokyo</span>
+      <div class="logo">
+        <span class="logo-en">RACINE</span>
+        <span class="logo-ja">ラシーヌ</span>
+      </div>
+      <nav class="nav">
+        <a href="#philosophy">哲学</a>
+        <a href="#menu">料理</a>
+        <a href="#story">物語</a>
+        <a href="#reserve" class="nav-reserve">予約</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-noise"></div>
+    <div class="hero-content">
+      <div class="hero-label reveal">2026年 ミシュラン 二ツ星</div>
+      <h1 class="hero-title">
+        <span class="hero-line reveal">静けさの中に</span>
+        <span class="hero-line hero-line-em reveal">すべての味がある</span>
+      </h1>
+      <p class="hero-sub reveal">東京・南青山 — 季節の恵みと静寂が交わる場所</p>
+    </div>
+    <div class="hero-image">
+      <img src="images/hero-image.png" alt="料理イメージ">
+      <div class="hero-image-overlay"></div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-number">01</div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="philosophy" id="philosophy">
+    <div class="philosophy-inner">
+      <div class="section-label reveal">Philosophy</div>
+      <div class="philosophy-grid">
+        <div class="philosophy-text">
+          <h2 class="reveal">素材との<br><em>対話</em></h2>
+          <p class="reveal">RACINEが追い求めるのは、素材が持つ本来の声。余分なものを削ぎ落とし、旬の一瞬を皿の上に封じ込める。それがシェフ・中村悠の哲学です。</p>
+          <p class="reveal">北海道から届く朝採れの野菜、三陸の漁師が選んだ魚介、奥出雲の森が育てた肉。すべての食材に、物語がある。</p>
+          <div class="divider reveal"></div>
+          <div class="philosophy-stats">
+            <div class="stat reveal">
+              <span class="stat-num">12</span>
+              <span class="stat-label">コース料理</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat-num">47</span>
+              <span class="stat-label">産地直送食材</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat-num">★★</span>
+              <span class="stat-label">ミシュランスター</span>
+            </div>
+          </div>
+        </div>
+        <div class="philosophy-images">
+          <div class="phi-img phi-img-1 reveal">
+            <img src="images/phi-img-1.png" alt="">
+          </div>
+          <div class="phi-img phi-img-2 reveal">
+            <img src="images/phi-img-2.png" alt="">
+          </div>
+          <div class="phi-quote reveal">
+            <blockquote>「食は、一期一会。」</blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu-section" id="menu">
+    <div class="menu-inner">
+      <div class="section-header">
+        <div class="section-label reveal">Cuisine</div>
+        <h2 class="reveal">今月の<em>物語</em></h2>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card reveal">
+          <div class="menu-card-img">
+            <img src="images/menu-帆立.png" alt="前菜">
+            <div class="menu-card-overlay">
+              <p>北海道産帆立貝を昆布締めにし、発酵バターと柚子泡を添えて。大地の恵みを一口に凝縮した開幕の一皿。</p>
+            </div>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-num">01</span>
+            <h3>帆立の昆布締め</h3>
+            <span class="menu-tag">前菜</span>
+          </div>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-card-img">
+            <img src="images/menu-松茸.png" alt="スープ">
+            <div class="menu-card-overlay">
+              <p>松茸を12時間かけて抽出した黄金のコンソメ。深秋の森を杯の中に閉じ込めた、香りの芸術。</p>
+            </div>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-num">02</span>
+            <h3>松茸の黄金コンソメ</h3>
+            <span class="menu-tag">スープ</span>
+          </div>
+        </div>
+        <div class="menu-card menu-card-large reveal">
+          <div class="menu-card-img">
+            <img src="images/menu大-牛.png" alt="メイン">
+            <div class="menu-card-overlay">
+              <p>36ヶ月熟成の奥出雲和牛。低温調理で仕上げ、炭火で香りを纏わせた、究極の一皿。</p>
+            </div>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-num">03</span>
+            <h3>奥出雲和牛 炭火焼き</h3>
+            <span class="menu-tag">メイン</span>
+          </div>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-card-img">
+            <img src="images/menu-desert.png" alt="デザート">
+            <div class="menu-card-overlay">
+              <p>宮崎産マンゴーと白味噌のアイス。甘さと発酵の複雑な対話が、食事の記憶を締めくくる。</p>
+            </div>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-num">04</span>
+            <h3>フランボワーズとカシスのムース・グラッセ
+ヴァニラアイスとプラリネクランブル添え</h3>
+            <span class="menu-tag">デザート</span>
+          </div>
+        </div>
+      </div>
+      <div class="menu-cta reveal">
+        <a href="#reserve" class="btn-gold">フルコースを見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="story-image reveal">
+      <img src="images/Chef.png" alt="シェフ 中村悠">
+      <div class="story-image-caption">Chef — 中村 悠</div>
+    </div>
+    <div class="story-text">
+      <div class="section-label reveal">Our Story</div>
+      <h2 class="reveal">30年の問い</h2>
+      <p class="reveal">「料理とは何か」——その問いを抱えたまま、中村悠は世界中の厨房を旅した。パリ、コペンハーゲン、京都。各地で出会った食文化は、やがて一つの確信へと収束していった。</p>
+      <p class="reveal">土地が、季節が、人が——食材に命を吹き込む。シェフの役割は、その声に耳を傾けることだ、と。</p>
+      <p class="reveal">2018年、南青山にRACINEを開業。静けさの中に、すべての答えがあった。</p>
+      <div class="story-signature reveal">
+        <span>中村 悠</span>
+        <span class="story-title-en">Executive Chef</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <div class="gallery-label section-label reveal">Gallery</div>
+    <div class="gallery-grid">
+      <div class="gallery-item g1 reveal"><img src="images/gallery-大.png" alt=""></div>
+      <div class="gallery-item g2 reveal"><img src="images/gallery-table.png" alt=""></div>
+      <div class="gallery-item g3 reveal"><img src="images/gallery-fish.png" alt=""></div>
+      <div class="gallery-item g4 reveal"><img src="images/gallery-wine.png" alt=""></div>
+      <div class="gallery-item g5 reveal"><img src="images/gallery-desert.png" alt=""></div>
+    </div>
+  </section>
+
+  <!-- RESERVATION -->
+  <section class="reserve" id="reserve">
+    <div class="reserve-inner">
+      <div class="reserve-text">
+        <div class="section-label reveal">Reservation</div>
+        <h2 class="reveal">特別な夜を<br><em>ご予約ください</em></h2>
+        <p class="reveal">ディナーコース ¥35,000〜（税・サービス料込み）<br>完全予約制 · 18:00 / 20:30の2部制</p>
+        <div class="reserve-note reveal">
+          <span>ご予約は3日前までにお願いします</span>
+        </div>
+      </div>
+      <form class="reserve-form reveal">
+        <div class="form-row">
+          <input type="text" placeholder="お名前" class="form-input">
+          <input type="tel" placeholder="お電話番号" class="form-input">
+        </div>
+        <div class="form-row">
+          <input type="date" class="form-input">
+          <select class="form-input">
+            <option value="">時間を選ぶ</option>
+            <option>18:00</option>
+            <option>20:30</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <select class="form-input full-col">
+            <option value="">人数</option>
+            <option>1名</option>
+            <option>2名</option>
+            <option>3名</option>
+            <option>4名</option>
+            <option>5名以上</option>
+          </select>
+        </div>
+        <textarea placeholder="特別なご要望（アレルギー・記念日など）" class="form-input form-textarea"></textarea>
+        <button type="submit" class="btn-gold btn-full">予約を申し込む</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-en">RACINE</span>
+        <span class="logo-ja">ラシーヌ</span>
+      </div>
+      <div class="footer-info">
+        <p>〒107-0062 東京都港区南青山3-XX-XX</p>
+        <p>Tel: 03-XXXX-XXXX</p>
+        <p>Dinner 18:00〜23:00（完全予約制）/ 月曜定休</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">プライバシーポリシー</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 RACINE. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
